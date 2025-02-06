@@ -11,4 +11,4 @@ if favourite_food.lower() == 'fried rice':
     print('So you must be a good chef! ')
 
 # this will compare lower case version of input
-# and gives an output based on conditions specifiedsS
+# and gives an output based on conditions specified
