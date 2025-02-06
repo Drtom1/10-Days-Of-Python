@@ -7,4 +7,10 @@ if school == 'FUTO' or school == 'UNN' or school == 'UNIPORT' or school== 'UNIBE
     fees = 5000
 else:
     fees = 10000
-print('Your school fee is:' + str(fees))
+
+# instead of using multiple or statements,
+# we can use the in statement to make code cleaner
+
+if school in('UNICAL', 'UNIUYO', 'FUTA', 'LASU', 'ESUT'):
+    fees = 2500
+print('Your tuition is: ' + str(fees))
